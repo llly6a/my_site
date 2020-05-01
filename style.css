@@ -1,0 +1,21 @@
+.body{
+    margin: 0;
+    padding: 2em;
+    display: grid;    
+    width: 500px;
+    align-content: center;
+}
+
+.page-header{
+    background-color: antiquewhite;
+    padding: 1em;
+}
+
+.page-footer{
+    background-color: peru;
+    padding: 1em;
+}
+
+.main img{
+    height: 200px;
+}
