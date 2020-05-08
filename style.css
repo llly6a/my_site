@@ -1,21 +1,65 @@
 .body{
-    margin: 0;
-    padding: 2em;
-    display: grid;    
+    margin: 0 auto;
+    display: grid;
+    row-gap: 0.5em;
     width: 500px;
-    align-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(75, 75, 75);
 }
 
-.page-header{
-    background-color: antiquewhite;
+h3{
     padding: 1em;
 }
 
-.page-footer{
-    background-color: peru;
-    padding: 1em;
+.main {
+    background-color: rosybrown;
 }
 
 .main img{
     height: 200px;
+    padding: 1em;
+}
+
+.intro{
+    background-color: mistyrose;
+}
+
+.intro p{
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.page-header{
+    background-color: antiquewhite;
+}
+
+.skills{
+    background-color: tan;
+}
+
+.skills-list{
+    text-align: left;
+    padding: 5px;
+}
+
+.skills-list dt{
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.level{
+    margin: 4px 0 16px;
+    color: whitesmoke;
+    background-color:seashell;
+    text-align: center;
+}
+
+.level div {
+    background-color: teal;
+  }
+
+.page-footer{
+    background-color: peru;
 }
